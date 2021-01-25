@@ -1,0 +1,278 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="16.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <PreferredToolArchitecture>x64</PreferredToolArchitecture>
+  </PropertyGroup>
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="MinSizeRel|x64">
+      <Configuration>MinSizeRel</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="RelWithDebInfo|x64">
+      <Configuration>RelWithDebInfo</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{E662DCBD-74D5-3804-B714-BC65B62CF60C}</ProjectGuid>
+    <WindowsTargetPlatformVersion>10.0.18362.0</WindowsTargetPlatformVersion>
+    <Keyword>Win32Proj</Keyword>
+    <Platform>x64</Platform>
+    <ProjectName>ALL_BUILD</ProjectName>
+    <VCProjectUpgraderObjectName>NoUpgrade</VCProjectUpgraderObjectName>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <ConfigurationType>Utility</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v142</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <ConfigurationType>Utility</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v142</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'" Label="Configuration">
+    <ConfigurationType>Utility</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v142</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'" Label="Configuration">
+    <ConfigurationType>Utility</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v142</PlatformToolset>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup>
+    <_ProjectFileVersion>10.0.20506.1</_ProjectFileVersion>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">$(Platform)\$(Configuration)\$(ProjectName)\</IntDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Release|x64'">$(Platform)\$(Configuration)\$(ProjectName)\</IntDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">$(Platform)\$(Configuration)\$(ProjectName)\</IntDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">$(Platform)\$(Configuration)\$(ProjectName)\</IntDir>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <Midl>
+      <AdditionalIncludeDirectories>G:\Tutorial\OpenGL\Opengl2dGame\Glitter\Glitter\Headers;G:\Tutorial\OpenGL\Opengl2dGame\Glitter\Glitter\Vendor\assimp\include;G:\Tutorial\OpenGL\Opengl2dGame\Glitter\Glitter\Vendor\bullet\src;G:\Tutorial\OpenGL\Opengl2dGame\Glitter\Glitter\Vendor\glad\include;G:\Tutorial\OpenGL\Opengl2dGame\Glitter\Glitter\Vendor\glfw\include;G:\Tutorial\OpenGL\Opengl2dGame\Glitter\Glitter\Vendor\glm;G:\Tutorial\OpenGL\Opengl2dGame\Glitter\Glitter\Vendor\stb;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <Midl>
+      <AdditionalIncludeDirectories>G:\Tutorial\OpenGL\Opengl2dGame\Glitter\Glitter\Headers;G:\Tutorial\OpenGL\Opengl2dGame\Glitter\Glitter\Vendor\assimp\include;G:\Tutorial\OpenGL\Opengl2dGame\Glitter\Glitter\Vendor\bullet\src;G:\Tutorial\OpenGL\Opengl2dGame\Glitter\Glitter\Vendor\glad\include;G:\Tutorial\OpenGL\Opengl2dGame\Glitter\Glitter\Vendor\glfw\include;G:\Tutorial\OpenGL\Opengl2dGame\Glitter\Glitter\Vendor\glm;G:\Tutorial\OpenGL\Opengl2dGame\Glitter\Glitter\Vendor\stb;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">
+    <Midl>
+      <AdditionalIncludeDirectories>G:\Tutorial\OpenGL\Opengl2dGame\Glitter\Glitter\Headers;G:\Tutorial\OpenGL\Opengl2dGame\Glitter\Glitter\Vendor\assimp\include;G:\Tutorial\OpenGL\Opengl2dGame\Glitter\Glitter\Vendor\bullet\src;G:\Tutorial\OpenGL\Opengl2dGame\Glitter\Glitter\Vendor\glad\include;G:\Tutorial\OpenGL\Opengl2dGame\Glitter\Glitter\Vendor\glfw\include;G:\Tutorial\OpenGL\Opengl2dGame\Glitter\Glitter\Vendor\glm;G:\Tutorial\OpenGL\Opengl2dGame\Glitter\Glitter\Vendor\stb;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">
+    <Midl>
+      <AdditionalIncludeDirectories>G:\Tutorial\OpenGL\Opengl2dGame\Glitter\Glitter\Headers;G:\Tutorial\OpenGL\Opengl2dGame\Glitter\Glitter\Vendor\assimp\include;G:\Tutorial\OpenGL\Opengl2dGame\Glitter\Glitter\Vendor\bullet\src;G:\Tutorial\OpenGL\Opengl2dGame\Glitter\Glitter\Vendor\glad\include;G:\Tutorial\OpenGL\Opengl2dGame\Glitter\Glitter\Vendor\glfw\include;G:\Tutorial\OpenGL\Opengl2dGame\Glitter\Glitter\Vendor\glm;G:\Tutorial\OpenGL\Opengl2dGame\Glitter\Glitter\Vendor\stb;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <CustomBuild Include="G:\Tutorial\OpenGL\Opengl2dGame\Glitter\CMakeLists.txt">
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Building Custom Rule G:/Tutorial/OpenGL/Opengl2dGame/Glitter/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SG:/Tutorial/OpenGL/Opengl2dGame/Glitter -BG:/Tutorial/OpenGL/Opengl2dGame/Glitter --check-stamp-file G:/Tutorial/OpenGL/Opengl2dGame/Glitter/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Program Files\CMake\share\cmake-3.15\Modules\CMakeCInformation.cmake;C:\Program Files\CMake\share\cmake-3.15\Modules\CMakeCXXInformation.cmake;C:\Program Files\CMake\share\cmake-3.15\Modules\CMakeCommonLanguageInclude.cmake;C:\Program Files\CMake\share\cmake-3.15\Modules\CMakeGenericSystem.cmake;C:\Program Files\CMake\share\cmake-3.15\Modules\CMakeInitializeConfigs.cmake;C:\Program Files\CMake\share\cmake-3.15\Modules\CMakeLanguageInformation.cmake;C:\Program Files\CMake\share\cmake-3.15\Modules\CMakeRCInformation.cmake;C:\Program Files\CMake\share\cmake-3.15\Modules\CMakeSystemSpecificInformation.cmake;C:\Program Files\CMake\share\cmake-3.15\Modules\CMakeSystemSpecificInitialize.cmake;C:\Program Files\CMake\share\cmake-3.15\Modules\Compiler\CMakeCommonCompilerMacros.cmake;C:\Program Files\CMake\share\cmake-3.15\Modules\Compiler\MSVC-C.cmake;C:\Program Files\CMake\share\cmake-3.15\Modules\Compiler\MSVC-CXX.cmake;C:\Program Files\CMake\share\cmake-3.15\Modules\Platform\Windows-MSVC-C.cmake;C:\Program Files\CMake\share\cmake-3.15\Modules\Platform\Windows-MSVC-CXX.cmake;C:\Program Files\CMake\share\cmake-3.15\Modules\Platform\Windows-MSVC.cmake;C:\Program Files\CMake\share\cmake-3.15\Modules\Platform\Windows.cmake;C:\Program Files\CMake\share\cmake-3.15\Modules\Platform\WindowsPaths.cmake;G:\Tutorial\OpenGL\Opengl2dGame\Glitter\CMakeFiles\3.15.0-rc2\CMakeCCompiler.cmake;G:\Tutorial\OpenGL\Opengl2dGame\Glitter\CMakeFiles\3.15.0-rc2\CMakeCXXCompiler.cmake;G:\Tutorial\OpenGL\Opengl2dGame\Glitter\CMakeFiles\3.15.0-rc2\CMakeRCCompiler.cmake;G:\Tutorial\OpenGL\Opengl2dGame\Glitter\CMakeFiles\3.15.0-rc2\CMakeSystem.cmake;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">G:\Tutorial\OpenGL\Opengl2dGame\Glitter\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Building Custom Rule G:/Tutorial/OpenGL/Opengl2dGame/Glitter/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SG:/Tutorial/OpenGL/Opengl2dGame/Glitter -BG:/Tutorial/OpenGL/Opengl2dGame/Glitter --check-stamp-file G:/Tutorial/OpenGL/Opengl2dGame/Glitter/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\Program Files\CMake\share\cmake-3.15\Modules\CMakeCInformation.cmake;C:\Program Files\CMake\share\cmake-3.15\Modules\CMakeCXXInformation.cmake;C:\Program Files\CMake\share\cmake-3.15\Modules\CMakeCommonLanguageInclude.cmake;C:\Program Files\CMake\share\cmake-3.15\Modules\CMakeGenericSystem.cmake;C:\Program Files\CMake\share\cmake-3.15\Modules\CMakeInitializeConfigs.cmake;C:\Program Files\CMake\share\cmake-3.15\Modules\CMakeLanguageInformation.cmake;C:\Program Files\CMake\share\cmake-3.15\Modules\CMakeRCInformation.cmake;C:\Program Files\CMake\share\cmake-3.15\Modules\CMakeSystemSpecificInformation.cmake;C:\Program Files\CMake\share\cmake-3.15\Modules\CMakeSystemSpecificInitialize.cmake;C:\Program Files\CMake\share\cmake-3.15\Modules\Compiler\CMakeCommonCompilerMacros.cmake;C:\Program Files\CMake\share\cmake-3.15\Modules\Compiler\MSVC-C.cmake;C:\Program Files\CMake\share\cmake-3.15\Modules\Compiler\MSVC-CXX.cmake;C:\Program Files\CMake\share\cmake-3.15\Modules\Platform\Windows-MSVC-C.cmake;C:\Program Files\CMake\share\cmake-3.15\Modules\Platform\Windows-MSVC-CXX.cmake;C:\Program Files\CMake\share\cmake-3.15\Modules\Platform\Windows-MSVC.cmake;C:\Program Files\CMake\share\cmake-3.15\Modules\Platform\Windows.cmake;C:\Program Files\CMake\share\cmake-3.15\Modules\Platform\WindowsPaths.cmake;G:\Tutorial\OpenGL\Opengl2dGame\Glitter\CMakeFiles\3.15.0-rc2\CMakeCCompiler.cmake;G:\Tutorial\OpenGL\Opengl2dGame\Glitter\CMakeFiles\3.15.0-rc2\CMakeCXXCompiler.cmake;G:\Tutorial\OpenGL\Opengl2dGame\Glitter\CMakeFiles\3.15.0-rc2\CMakeRCCompiler.cmake;G:\Tutorial\OpenGL\Opengl2dGame\Glitter\CMakeFiles\3.15.0-rc2\CMakeSystem.cmake;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">G:\Tutorial\OpenGL\Opengl2dGame\Glitter\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">Building Custom Rule G:/Tutorial/OpenGL/Opengl2dGame/Glitter/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SG:/Tutorial/OpenGL/Opengl2dGame/Glitter -BG:/Tutorial/OpenGL/Opengl2dGame/Glitter --check-stamp-file G:/Tutorial/OpenGL/Opengl2dGame/Glitter/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:\Program Files\CMake\share\cmake-3.15\Modules\CMakeCInformation.cmake;C:\Program Files\CMake\share\cmake-3.15\Modules\CMakeCXXInformation.cmake;C:\Program Files\CMake\share\cmake-3.15\Modules\CMakeCommonLanguageInclude.cmake;C:\Program Files\CMake\share\cmake-3.15\Modules\CMakeGenericSystem.cmake;C:\Program Files\CMake\share\cmake-3.15\Modules\CMakeInitializeConfigs.cmake;C:\Program Files\CMake\share\cmake-3.15\Modules\CMakeLanguageInformation.cmake;C:\Program Files\CMake\share\cmake-3.15\Modules\CMakeRCInformation.cmake;C:\Program Files\CMake\share\cmake-3.15\Modules\CMakeSystemSpecificInformation.cmake;C:\Program Files\CMake\share\cmake-3.15\Modules\CMakeSystemSpecificInitialize.cmake;C:\Program Files\CMake\share\cmake-3.15\Modules\Compiler\CMakeCommonCompilerMacros.cmake;C:\Program Files\CMake\share\cmake-3.15\Modules\Compiler\MSVC-C.cmake;C:\Program Files\CMake\share\cmake-3.15\Modules\Compiler\MSVC-CXX.cmake;C:\Program Files\CMake\share\cmake-3.15\Modules\Platform\Windows-MSVC-C.cmake;C:\Program Files\CMake\share\cmake-3.15\Modules\Platform\Windows-MSVC-CXX.cmake;C:\Program Files\CMake\share\cmake-3.15\Modules\Platform\Windows-MSVC.cmake;C:\Program Files\CMake\share\cmake-3.15\Modules\Platform\Windows.cmake;C:\Program Files\CMake\share\cmake-3.15\Modules\Platform\WindowsPaths.cmake;G:\Tutorial\OpenGL\Opengl2dGame\Glitter\CMakeFiles\3.15.0-rc2\CMakeCCompiler.cmake;G:\Tutorial\OpenGL\Opengl2dGame\Glitter\CMakeFiles\3.15.0-rc2\CMakeCXXCompiler.cmake;G:\Tutorial\OpenGL\Opengl2dGame\Glitter\CMakeFiles\3.15.0-rc2\CMakeRCCompiler.cmake;G:\Tutorial\OpenGL\Opengl2dGame\Glitter\CMakeFiles\3.15.0-rc2\CMakeSystem.cmake;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">G:\Tutorial\OpenGL\Opengl2dGame\Glitter\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">Building Custom Rule G:/Tutorial/OpenGL/Opengl2dGame/Glitter/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SG:/Tutorial/OpenGL/Opengl2dGame/Glitter -BG:/Tutorial/OpenGL/Opengl2dGame/Glitter --check-stamp-file G:/Tutorial/OpenGL/Opengl2dGame/Glitter/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\Program Files\CMake\share\cmake-3.15\Modules\CMakeCInformation.cmake;C:\Program Files\CMake\share\cmake-3.15\Modules\CMakeCXXInformation.cmake;C:\Program Files\CMake\share\cmake-3.15\Modules\CMakeCommonLanguageInclude.cmake;C:\Program Files\CMake\share\cmake-3.15\Modules\CMakeGenericSystem.cmake;C:\Program Files\CMake\share\cmake-3.15\Modules\CMakeInitializeConfigs.cmake;C:\Program Files\CMake\share\cmake-3.15\Modules\CMakeLanguageInformation.cmake;C:\Program Files\CMake\share\cmake-3.15\Modules\CMakeRCInformation.cmake;C:\Program Files\CMake\share\cmake-3.15\Modules\CMakeSystemSpecificInformation.cmake;C:\Program Files\CMake\share\cmake-3.15\Modules\CMakeSystemSpecificInitialize.cmake;C:\Program Files\CMake\share\cmake-3.15\Modules\Compiler\CMakeCommonCompilerMacros.cmake;C:\Program Files\CMake\share\cmake-3.15\Modules\Compiler\MSVC-C.cmake;C:\Program Files\CMake\share\cmake-3.15\Modules\Compiler\MSVC-CXX.cmake;C:\Program Files\CMake\share\cmake-3.15\Modules\Platform\Windows-MSVC-C.cmake;C:\Program Files\CMake\share\cmake-3.15\Modules\Platform\Windows-MSVC-CXX.cmake;C:\Program Files\CMake\share\cmake-3.15\Modules\Platform\Windows-MSVC.cmake;C:\Program Files\CMake\share\cmake-3.15\Modules\Platform\Windows.cmake;C:\Program Files\CMake\share\cmake-3.15\Modules\Platform\WindowsPaths.cmake;G:\Tutorial\OpenGL\Opengl2dGame\Glitter\CMakeFiles\3.15.0-rc2\CMakeCCompiler.cmake;G:\Tutorial\OpenGL\Opengl2dGame\Glitter\CMakeFiles\3.15.0-rc2\CMakeCXXCompiler.cmake;G:\Tutorial\OpenGL\Opengl2dGame\Glitter\CMakeFiles\3.15.0-rc2\CMakeRCCompiler.cmake;G:\Tutorial\OpenGL\Opengl2dGame\Glitter\CMakeFiles\3.15.0-rc2\CMakeSystem.cmake;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">G:\Tutorial\OpenGL\Opengl2dGame\Glitter\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="G:\Tutorial\OpenGL\Opengl2dGame\Glitter\ZERO_CHECK.vcxproj">
+      <Project>{9EC23D3B-31CE-337F-98C6-3F6DBED07440}</Project>
+      <Name>ZERO_CHECK</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="G:\Tutorial\OpenGL\Opengl2dGame\Glitter\Glitter\Vendor\bullet\src\Bullet3Serialize\Bullet2FileLoader\Bullet2FileLoader.vcxproj">
+      <Project>{6CFA4BBD-6444-3F17-9AB1-BE89E921132F}</Project>
+      <Name>Bullet2FileLoader</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="G:\Tutorial\OpenGL\Opengl2dGame\Glitter\Glitter\Vendor\bullet\src\Bullet3Collision\Bullet3Collision.vcxproj">
+      <Project>{40D80EC4-02C9-35A2-909D-BA0FB7065AA6}</Project>
+      <Name>Bullet3Collision</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="G:\Tutorial\OpenGL\Opengl2dGame\Glitter\Glitter\Vendor\bullet\src\Bullet3Common\Bullet3Common.vcxproj">
+      <Project>{553E5C3B-5D50-35E9-BAC8-1B28E64304BD}</Project>
+      <Name>Bullet3Common</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="G:\Tutorial\OpenGL\Opengl2dGame\Glitter\Glitter\Vendor\bullet\src\Bullet3Dynamics\Bullet3Dynamics.vcxproj">
+      <Project>{E879A343-26EA-33FE-836C-8D9442584BF1}</Project>
+      <Name>Bullet3Dynamics</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="G:\Tutorial\OpenGL\Opengl2dGame\Glitter\Glitter\Vendor\bullet\src\Bullet3Geometry\Bullet3Geometry.vcxproj">
+      <Project>{F12AFD9B-184C-3737-908D-5C0E08BB40AA}</Project>
+      <Name>Bullet3Geometry</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="G:\Tutorial\OpenGL\Opengl2dGame\Glitter\Glitter\Vendor\bullet\src\Bullet3OpenCL\Bullet3OpenCL_clew.vcxproj">
+      <Project>{2E64F3DC-86D0-316C-9AB0-4A002BB80FD9}</Project>
+      <Name>Bullet3OpenCL_clew</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="G:\Tutorial\OpenGL\Opengl2dGame\Glitter\Glitter\Vendor\bullet\src\BulletCollision\BulletCollision.vcxproj">
+      <Project>{75F6E7B0-CBF1-3A88-AAEA-CBCDECB40901}</Project>
+      <Name>BulletCollision</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="G:\Tutorial\OpenGL\Opengl2dGame\Glitter\Glitter\Vendor\bullet\src\BulletDynamics\BulletDynamics.vcxproj">
+      <Project>{A3674B72-1EF9-3A65-90C6-F28C8370DC7A}</Project>
+      <Name>BulletDynamics</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="G:\Tutorial\OpenGL\Opengl2dGame\Glitter\Glitter\Vendor\bullet\src\BulletInverseDynamics\BulletInverseDynamics.vcxproj">
+      <Project>{CDE09FE2-DF09-3A37-8147-1F3039D239AF}</Project>
+      <Name>BulletInverseDynamics</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="G:\Tutorial\OpenGL\Opengl2dGame\Glitter\Glitter\Vendor\bullet\src\BulletSoftBody\BulletSoftBody.vcxproj">
+      <Project>{42B177ED-0D99-3CF8-86E6-5D20572325AA}</Project>
+      <Name>BulletSoftBody</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="G:\Tutorial\OpenGL\Opengl2dGame\Glitter\Glitter.vcxproj">
+      <Project>{B2827FEE-775C-3270-86B2-AD08C85F0987}</Project>
+      <Name>Glitter</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="G:\Tutorial\OpenGL\Opengl2dGame\Glitter\Glitter\Vendor\assimp\contrib\irrXML\IrrXML.vcxproj">
+      <Project>{28B4AC03-9BD5-3E0D-BAFA-ECB09BF98295}</Project>
+      <Name>IrrXML</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="G:\Tutorial\OpenGL\Opengl2dGame\Glitter\Glitter\Vendor\bullet\src\LinearMath\LinearMath.vcxproj">
+      <Project>{3D96D266-3047-3D55-BC0F-7831BDADDDAC}</Project>
+      <Name>LinearMath</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="G:\Tutorial\OpenGL\Opengl2dGame\Glitter\Glitter\Vendor\assimp\code\assimp.vcxproj">
+      <Project>{38016365-8422-39ED-B444-1688A841E47D}</Project>
+      <Name>assimp</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="G:\Tutorial\OpenGL\Opengl2dGame\Glitter\Glitter\Vendor\glfw\src\glfw.vcxproj">
+      <Project>{A2D6A62D-5E1E-323B-84F4-865AE3C39189}</Project>
+      <Name>glfw</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="G:\Tutorial\OpenGL\Opengl2dGame\Glitter\Glitter\Vendor\assimp\contrib\zlib\zlib.vcxproj">
+      <Project>{0504D89B-B0AD-3583-8EBE-5304C0BFD9AE}</Project>
+      <Name>zlib</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="G:\Tutorial\OpenGL\Opengl2dGame\Glitter\Glitter\Vendor\assimp\contrib\zlib\zlibstatic.vcxproj">
+      <Project>{CDEA3965-3FE3-37DE-817D-0B829F09FC22}</Project>
+      <Name>zlibstatic</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

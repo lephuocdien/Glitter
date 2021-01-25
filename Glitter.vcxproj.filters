@@ -1,0 +1,38 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="16.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="G:\Tutorial\OpenGL\Opengl2dGame\Glitter\Glitter\Sources\main.cpp">
+      <Filter>Sources</Filter>
+    </ClCompile>
+    <ClCompile Include="G:\Tutorial\OpenGL\Opengl2dGame\Glitter\Glitter\Vendor\glad\src\glad.c">
+      <Filter>Vendors</Filter>
+    </ClCompile>
+    <ClCompile Include="Game.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="G:\Tutorial\OpenGL\Opengl2dGame\Glitter\Glitter\Headers\glitter.hpp">
+      <Filter>Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="Game.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="G:\Tutorial\OpenGL\Opengl2dGame\Glitter\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="G:\Tutorial\OpenGL\Opengl2dGame\Glitter\.gitattributes" />
+    <None Include="G:\Tutorial\OpenGL\Opengl2dGame\Glitter\.gitignore" />
+    <None Include="G:\Tutorial\OpenGL\Opengl2dGame\Glitter\.gitmodules" />
+    <None Include="G:\Tutorial\OpenGL\Opengl2dGame\Glitter\Readme.md" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Headers">
+      <UniqueIdentifier>{E15140FE-33AF-370E-A368-D5F23E803AE1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Sources">
+      <UniqueIdentifier>{FDF5E14D-23AA-345D-B8CC-533B2791D994}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Vendors">
+      <UniqueIdentifier>{AE71B00D-D329-3268-B09C-FC2ED5A5BDF5}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>
