@@ -8,12 +8,14 @@
       <Filter>Vendors</Filter>
     </ClCompile>
     <ClCompile Include="Game.cpp" />
+    <ClCompile Include="Shader.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="G:\Tutorial\OpenGL\Opengl2dGame\Glitter\Glitter\Headers\glitter.hpp">
       <Filter>Headers</Filter>
     </ClInclude>
     <ClInclude Include="Game.h" />
+    <ClInclude Include="Shader.h" />
   </ItemGroup>
   <ItemGroup>
     <CustomBuild Include="G:\Tutorial\OpenGL\Opengl2dGame\Glitter\CMakeLists.txt" />
