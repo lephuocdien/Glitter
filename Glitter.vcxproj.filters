@@ -9,6 +9,8 @@
     </ClCompile>
     <ClCompile Include="Game.cpp" />
     <ClCompile Include="Shader.cpp" />
+    <ClCompile Include="Texture.cpp" />
+    <ClCompile Include="ResourceManager.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="G:\Tutorial\OpenGL\Opengl2dGame\Glitter\Glitter\Headers\glitter.hpp">
@@ -16,6 +18,8 @@
     </ClInclude>
     <ClInclude Include="Game.h" />
     <ClInclude Include="Shader.h" />
+    <ClInclude Include="Texture.h" />
+    <ClInclude Include="ResourceManager.h" />
   </ItemGroup>
   <ItemGroup>
     <CustomBuild Include="G:\Tutorial\OpenGL\Opengl2dGame\Glitter\CMakeLists.txt" />

@@ -7,7 +7,7 @@ class Shader
 {
 public:
 	unsigned int			ID;
-	Shader();
+    Shader() {};
 	Shader& Use();
 	void    Compile(const char* vertexSource, const char* fragmentSource, const char* geometrySource = nullptr); 
     void    SetFloat(const char* name, float value, bool useShader = false);
