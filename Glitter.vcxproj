@@ -372,11 +372,13 @@ if %errorlevel% neq 0 goto :VCEnd</Command>
     <ClCompile Include="Game.cpp" />
     <ClCompile Include="ResourceManager.cpp" />
     <ClCompile Include="Shader.cpp" />
+    <ClCompile Include="SpriteRenderer.cpp" />
     <ClCompile Include="Texture.cpp" />
     <ClInclude Include="G:\Tutorial\OpenGL\Opengl2dGame\Glitter\Glitter\Headers\glitter.hpp" />
     <ClInclude Include="Game.h" />
     <ClInclude Include="ResourceManager.h" />
     <ClInclude Include="Shader.h" />
+    <ClInclude Include="SpriteRenderer.h" />
     <ClInclude Include="Texture.h" />
     <None Include="G:\Tutorial\OpenGL\Opengl2dGame\Glitter\.gitattributes" />
     <None Include="G:\Tutorial\OpenGL\Opengl2dGame\Glitter\.gitignore" />
